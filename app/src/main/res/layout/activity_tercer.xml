@@ -20,13 +20,14 @@
             android:text="Nombres:" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/tercerNombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:enabled="false"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -42,13 +43,14 @@
             android:text="Apellidos:" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/tercerApellido"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:enabled="false"
+            android:hint="Apellido"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -64,13 +66,12 @@
             android:text="TextView" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/tercerDividiendo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -86,13 +87,12 @@
             android:text="TextView" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/tercerDivisor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -108,25 +108,18 @@
             android:text="TextView" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName5"
+            android:id="@+id/tercerInverso"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/tercerCerrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="CERRAR" />
 
 </LinearLayout>

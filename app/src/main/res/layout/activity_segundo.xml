@@ -25,8 +25,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -46,8 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="Apellido"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -68,8 +68,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:enabled="false"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -90,8 +90,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:enabled="false"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -112,8 +112,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:enabled="false"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <Button
