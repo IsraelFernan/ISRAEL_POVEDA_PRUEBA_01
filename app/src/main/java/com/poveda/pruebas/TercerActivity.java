@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class TercerActivity extends AppCompatActivity {
     Metodos m = new Metodos();
-    TextView nombre,apellido,dividiendo,divisor;
+    TextView nombre,apellido,dividiendo,divisor,numero;
     Button siguiente,cerrar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class TercerActivity extends AppCompatActivity {
         apellido = findViewById(R.id.tercerApellido);
         dividiendo = findViewById(R.id.tercerDividiendo);
         divisor = findViewById(R.id.tercerDivisor);
+        numero = findViewById(R.id.tercerInverso);
         nombre.setText(extras.getString("nombre"));
         apellido.setText(extras.getString("apellido"));
         cerrar.setOnClickListener(new View.OnClickListener() {
@@ -30,8 +31,9 @@ public class TercerActivity extends AppCompatActivity {
                 Intent i = new Intent(TercerActivity.this,SegundoActivity.class);
                 i.putExtra("nombre",String.valueOf(nombre.getText()));
                 i.putExtra("apellido",String.valueOf(nombre.getText()));
-                i.putExtra("div1",String.valueOf(nombre.getText()));
-                i.putExtra("div2",String.valueOf(nombre.getText()));
+                i.putExtra("div1",String.valueOf(dividiendo.getText()));
+                i.putExtra("div2",String.valueOf(divisor.getText()));
+                i.putExtra("inverso",String.valueOf(numero.getText()));
                 startActivity(i);
             }
         });
