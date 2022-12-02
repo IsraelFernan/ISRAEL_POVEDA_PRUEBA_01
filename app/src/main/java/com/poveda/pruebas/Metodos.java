@@ -6,4 +6,7 @@ public class Metodos {
     public void Cerrar(Activity actividad){
         actividad.finish();
     }
+    public void Siguiente(Activity actividad,Class clase){
+
+    }
 }
