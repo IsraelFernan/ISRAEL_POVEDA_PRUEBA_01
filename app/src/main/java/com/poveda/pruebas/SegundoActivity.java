@@ -16,10 +16,16 @@ public class SegundoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_segundo);
+        Bundle extras = getIntent().getExtras();
+
         siguiente = findViewById(R.id.segundoSiguiente);
         cerrar = findViewById(R.id.segundoCerrar);
         nombre = findViewById(R.id.segundoNombre);
         apellido = findViewById(R.id.segundApellido);
+        if(extras != null){
+            nombre.setText(extras.getString("nombre"));
+            apellido.setText(extras.getString("nombre"));
+        }
         siguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
