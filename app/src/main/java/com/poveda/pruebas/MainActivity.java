@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             div2.setText(extras.getString("div2"));
             numero.setText(extras.getString("inverso"));
             parteEntera.setText(extras.getString("div2"));
-            int residuo = m.Dividir(Integer.parseInt(String.valueOf(div1.getText())),Integer.parseInt(String.valueOf(div1.getText())));
+            int residuo = m.Dividir(Integer.parseInt(extras.getString("div1")),Integer.parseInt(extras.getString("div2")));
             mResiduo.setText(String.valueOf(residuo));
         }
 
