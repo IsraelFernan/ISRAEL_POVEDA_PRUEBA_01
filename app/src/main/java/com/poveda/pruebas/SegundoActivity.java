@@ -30,6 +30,8 @@ public class SegundoActivity extends AppCompatActivity {
             div1.setText(extras.getString("div1"));
             div2.setText(extras.getString("div2"));
             numero.setText(extras.getString("inverso"));
+            nombre.setEnabled(false);
+            apellido.setEnabled(false);
         }
         siguiente.setOnClickListener(new View.OnClickListener() {
             @Override
